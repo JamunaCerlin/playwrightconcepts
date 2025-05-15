@@ -29,6 +29,8 @@ test("open a new page with browser fixtures", async ({ browser }) => {
     const context = await browser.newContext()
     const page = await context.newPage()
     await page.goto("https://www.saucedemo.com/")
+
+   
 })
 
 test("open a new page without browser fixtures", async ({ browser }) => {

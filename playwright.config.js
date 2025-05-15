@@ -42,21 +42,22 @@ export default defineConfig({
       use: {
         ...devices['Desktop Chrome'],
         channel: 'chrome',
-        //viewport: { width: 900, height: 900 }, 
-      },
+        viewport: { width: 1200, height: 934 }, 
+      }
     },
-
+/*
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
     },
+
 
     {
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
 
-    /* Test against mobile viewports. */
+     Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
     //   use: { ...devices['Pixel 5'] },
